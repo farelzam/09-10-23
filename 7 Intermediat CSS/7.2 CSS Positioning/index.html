@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .blue-box{
+      background-color: blue;
+      position: absolute;
+      height: 300px;
+      width: 500px;
+      left: 200px;
+      top: 200px;
+    }
+
+    .red-circle{
+      background-color: red;
+      position: relative;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      left: 250px;
+      top: 150px;
+
+    }
+    /* static : merupakan posisi default saat element dimunculkan
+
+    relative : relative digunakan untuk membuat suatu element bisa dipindah pindahkan . By default elemen memang tumpukan sebagaimana pada value static, tetapi kita bisa memindahkan elemen tersebut dengan property seperti top , left. Sehingga elemen tersebut akan menindihi layernya elemen lain. 
+
+    Absolute : absolute digunakan untuk membuat suatu elemen bisa dipindahkan dan membuat elemen mengambang ke atas dibanding element lain. Bedanya dengan property relative, pada property absolute layer bawahnya akan bergeser seolah olah berada di bawah layer dengan property relative.
+
+    fixed : fixed digunakan untuk membuat elemen mengambang di antara elemen elemen lain dan juga bisa dipindahkan posisinya. Property ini mirip dengan property absolute. Bedanya dengan property absolute adalah property dengan value fixed posisinya akan tetap berada di posisinya terhadap layar meskin layar page scroll.
+     */
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle"></div>
+  </div>
+
+</body>
+
+</html>

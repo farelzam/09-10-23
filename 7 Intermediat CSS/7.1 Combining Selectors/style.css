@@ -1,0 +1,23 @@
+/* Write your code here: */
+
+/* combinasi selector bisa lebih dari 1 */
+h1, h2{
+     color: blueviolet;
+}
+/* selector orangtua dan anak / bisa digunakan id 2 ada didalam id ke 1 */
+.box > p {
+     color: firebrick;
+}
+/* selector ini bisa memilih banyak element selagi elemen itu masih berhubungan
+dengan element pembukanya */
+.list li{
+     color: aqua;
+}
+/* digunakan dengan mengambil tag dan id dari element yang dipilih */
+li.done{
+     color: rgb(208, 157, 255);
+}
+/* digunakan dengan mengambil tag perents kemudian tag element dan id element bertujuan menyeleksi element agar lebih spesifik */
+ul p.done{
+     font-size: 0,5rem;
+}

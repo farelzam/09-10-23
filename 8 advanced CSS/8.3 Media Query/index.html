@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Query</title>
+  <style>
+    /* body {
+      background-color: aquamarine;
+    }  */
+
+    /* [lightsalmon] Mobile Devices: 319px — 480px */
+    @media (min-width: 319px) and (max-width: 480px){
+      body{
+        background-color: lightsalmon;
+      }
+    }
+
+    /* [powderblue] iPads and Tablets: 481px — 1200px */
+    @media (min-width: 481px) and (max-width: 1200px){
+      body{
+        background-color: powderblue;
+      }
+    }
+
+    /* [limegreen] Laptops: 1201px — 1600px */
+    @media (min-width: 1201px) and (max-width: 1600px){
+      body{
+        background-color: limegreen;
+      }
+    }
+
+    /* [seagreen] Desktops: 1601px and more */
+    @media (max-width: 1601){
+      body{
+        background-color: seagreen;
+      }
+    }
+
+    .penjelasan{
+      background-color: white;
+      padding: 10px;
+    }
+    .note{
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="penjelasan">
+  <h1>media Query</h1>
+  <p>digunakan untuk mengatur ukuran pada tampilan setiap device<br><span CLass="note">untuk meida query bisa digunakan lebih dari satu tag media</span> </p>
+</di>
+</body>
+
+</html>
